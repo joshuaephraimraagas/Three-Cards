@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Three Cards</title>
+<link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Story+Script&display=swap" rel="stylesheet">
+</head>
+<body>
+ 
+  <h1 class="title">THREE CARDS</h1>
+ 
+  <div class="game-board">
+ 
+    <section class="player-section">
+      <div class="cards" id="player1-cards">
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+      </div>
+      <h2 class="score" id="player1-score">Player 1: 0</h2>
+    </section>
+ 
+    <section class="player-section">
+      <div class="cards" id="player2-cards">
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+        <div class="card">
+          <span class="corner top-left"></span>
+          <span class="suit-center"></span>
+          <span class="corner bottom-right"></span>
+        </div>
+      </div>
+      <h2 class="score" id="player2-score">Player 2: 0</h2>
+    </section>
+ 
+  </div>
+ 
+  <p class="result" id="result-message"></p>
+ 
+  <button id="draw-button" class="draw-button">Draw Cards</button>
+ 
+  <script src="main.js"></script>
+</body>
+</html>
